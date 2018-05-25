@@ -99,6 +99,7 @@ NSString *const AJSITunesAttributeTvSeasonTerm = @"tvSeasonTerm";
 + (NSDictionary *)JSONKeyPathsByPropertyKey
 {
     return @{ @"itemID" : @"trackId",
+              @"bundleID" : @"bundleId",
               @"artistID" : @"artistId",
               @"trackCount" : @"trackCount",
               @"trackNumber" : @"trackNumber",
@@ -107,7 +108,7 @@ NSString *const AJSITunesAttributeTvSeasonTerm = @"tvSeasonTerm";
               @"genreName" : @"primaryGenreName",
               @"collectionName" : @"collectionName",
               @"mediaType" : @"kind",
-              @"itemDescription" : @"longDescription",
+              @"itemDescription" : @"description",
               @"previewURL" : @"previewUrl",
               @"viewURL" : @"trackViewUrl",
               @"duration" : @"trackTimeMillis",

@@ -71,6 +71,7 @@ extern NSString *const AJSITunesAttributeTvSeasonTerm;
 @interface AJSITunesResult : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, strong, readonly) NSNumber *itemID;
+@property (nonatomic, strong, readonly) NSString *bundleID;
 @property (nonatomic, strong, readonly) NSNumber *artistID;
 
 @property (nonatomic, strong, readonly) NSNumber *trackCount;
